@@ -1,0 +1,110 @@
+
+
+p {
+margin-bottom:20px;
+}
+
+.clearout {
+height:20px;
+clear:both;
+}
+
+#flexiselDemo1, #flexiselDemo2, #flexiselDemo3 {
+display:none;
+}
+
+.nbs-flexisel-container {
+    position:relative;
+    max-width:100%;
+    padding: 22px 12px;
+}
+.nbs-flexisel-ul {
+    position:relative;
+    width:9999px;
+    margin:0px;
+    padding:0px;
+    list-style-type:none;   
+    text-align:center;  
+}
+
+.nbs-flexisel-inner {
+    overflow:hidden;
+    float:left;
+    width:100%;    
+}
+
+.nbs-flexisel-item {
+    float:left;
+    margin:0px;
+    padding:0px;
+    cursor:pointer;
+    position:relative;
+}
+
+
+.product-one-main{background: #f6f6f6; padding: 15px 10px; margin: 0 7px 22px; position: relative; overflow: hidden;}
+.product-img-block{text-align: center; overflow: hidden; /*z-index: 9999;*/ position: relative; min-height: 120px; height: 120px}
+.product-head{font-size: 14px; color: #2c2c2c; letter-spacing: 0.25px; text-align: center; margin-top: 10px; white-space: nowrap; text-overflow: ellipsis; overflow: hidden;min-height: 20px;}
+.product-content{font-size: 13px; color: #6a696f; white-space: nowrap; text-overflow: ellipsis; overflow: hidden;min-height: 16px;}
+.unit-price-block{float: left; width: 50%; text-align: left; }
+.min-price-block{float: right; width: 50%; text-align: right;}
+.amt-block-container{
+    margin-top: 10px;
+    min-height: 41px;}
+.price-block-container{font-size: 19px; color: #312783; font-family: 'robotomedium';}
+.price-content-container{font-size: 13px; color: #989797;}
+.min-pr{padding-right: 12px;}
+.slide-one-main-container{margin-bottom: 13px;}
+.product-list-block .amt-block-container{margin-bottom: 10px;}
+
+/*** Navigation ***/
+
+.nbs-flexisel-nav-left,
+.nbs-flexisel-nav-right {
+    width: 28px;
+    height: 56px; 
+    position: absolute;
+    cursor: pointer;
+    z-index: 100;
+    opacity: 0.5;
+}
+
+.nbs-flexisel-nav-left {
+    left: -25px;
+    background: url(../images/left-arrow-slider2.png) no-repeat;
+}
+
+.nbs-flexisel-nav-right {
+    right: -27px;
+    background: url(../images/right-arrow-slider2.png) no-repeat;
+}
+
+
+/**** code by sohaib ****/
+
+.main-heading{
+	font-size: 20px;
+    color: #000000;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 15px 0;
+    text-transform: uppercase;
+    text-indent: 11px;
+    text-shadow: none;
+    font-weight: 700;
+}
+.main-heading::before{
+	content:' ';
+	width:20px;
+	height:20px;
+	float:left;
+	background:#F9B233;
+	margin-top:4px;
+}
+.section-heading{
+	font-size: 20px;
+    color: #000000;
+    padding: 15px 0;
+    text-transform: uppercase;
+    text-shadow: none;
+    font-weight: normal;
+}
